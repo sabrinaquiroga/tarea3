@@ -7,7 +7,7 @@ public class Personas {
 
     public void setNombre (String nombre){
         this.nombre=nombre;
-
+//admfkwmf'k    nemg
     }
     public String getNombre(){
         return nombre;
