@@ -1,13 +1,20 @@
 
 public class Personas {
+
+
     String nombre;
     String apellido;
     int edad;
     String direccion;
 
+    public Personas(){
+        nombre="Diego";
+        apellido="touchard";
+        edad=    22;
+        direccion="Achumani C29";
+    }
     public void setNombre (String nombre){
         this.nombre=nombre;
-//admfkwmf'k    nemg
     }
     public String getNombre(){
         return nombre;
