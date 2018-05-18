@@ -1,11 +1,8 @@
 package jsont;
-
-import net.sf.json.JSONArray;
-import net.sf.json.JSONObject;
-
+import org.json.simple.*;
 import java.io.FileWriter;
-import java.io.PrintWriter;
 import java.io.IOException;
+import java.io.PrintWriter;
 
 public class Main {
     public static void main(String[] args) throws IOException {
@@ -28,7 +25,7 @@ public class Main {
         JSONObject ejemplo = new JSONObject ();
         ejemplo.put("ejemplo", aA);
         System.out.println(ejemplo);
-        FileWriter fw = new FileWriter("PersonasJson.txt");
+       FileWriter fw = new FileWriter("PersonasJson.txt");
         PrintWriter pw = new PrintWriter(fw);
 
         pw.println(ejemplo);
